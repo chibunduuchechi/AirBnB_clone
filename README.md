@@ -54,8 +54,16 @@ How to Test:
 ---
 
 Unittests for the CLI AirBnB project are defined in the tests folder. Execute the following command to run the entire test suite simultaneously:
-$ python3 unittest -m discover tests You can also specify a single test file to run at a time:
+
+```
+$ python3 unittest -m discover tests 
+```
+
+You can also specify a single test file to run at a time:
+
+```
 $ python3 unittest -m tests/test_console.py
+```
 
 **Author:** Ahamefula Chibundu <https://github.com/chibunduuchechi>
 
